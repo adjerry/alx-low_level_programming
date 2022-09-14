@@ -14,7 +14,6 @@ for (multi = 1; multi <= 9; multi++)
 {
 _putchar(',');
 _putchar(' ');
-}
 produ = num * multi;
 if (produ <= 9)
 _putchar(' ');
@@ -23,4 +22,5 @@ _putchar((produ / 10) + '0');
 _putchar((produ % 10) + '0');
 }
 _putchar('\n');
+}
 }
