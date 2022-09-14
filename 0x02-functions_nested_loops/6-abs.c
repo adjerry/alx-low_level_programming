@@ -4,7 +4,7 @@
  *@c: is the int use for argument of the function
  *Return: Always 0
  */
-int main(void)
+int _abs(int c)
 {
 if (c > 0 || c == 0)
 {
