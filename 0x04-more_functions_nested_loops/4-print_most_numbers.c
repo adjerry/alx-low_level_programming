@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include "main.h"
  /**
-  * print_most_numbers - function that prints the numbers
+  *print_most_numbers - function that prints the numbers
   *
-  * return: nothing return
+  *return: nothing return
   */
 void print_most_numbers(void)
 {
@@ -18,4 +18,3 @@ putchar (n);
 }
 putchar (10);
 }
-
