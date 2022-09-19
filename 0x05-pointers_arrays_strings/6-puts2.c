@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 /**
- *rev_string - function that reverses a string
+ *puts2 - function that reverses a string
  *@str:string
  *Return:nothing
  */
