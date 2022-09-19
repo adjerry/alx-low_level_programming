@@ -2,16 +2,16 @@
 #include "main.h"
 /**
  *rev_string - function that reverses a string
- *@s:string
+ *@str:string
  *Return:nothing
  */
-void rev_string(char *s)
+void puts2(char *str)
 {
 int i = 0;
-while (*(s + i) != '\0')
-{
+while (*(str + i) != '\0')
+{ 
 if (i % 2 == 0)
-putchar(*(s + i));
+putchar(*(str + i));
 i++;
 }
 putchar(10);
