@@ -9,7 +9,7 @@ char *leet(char *str)
 int i = 0;
 while (str[i] != '\0')
 {
-(str[i] = transform(str[i]);
+str[i] = transform(str[i]);
 i++;
 }
 return (str);
