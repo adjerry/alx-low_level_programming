@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- *leet - function that encodes a string into 1337
+ *leet - function that encodes a string into
  *@str:string to be encoded
- *Return: addrese of the encoded string
+ *Return:addrese of the encoded string
  */
 char *leet(char *str)
 {
