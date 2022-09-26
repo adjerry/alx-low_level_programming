@@ -1,8 +1,8 @@
 #include "main.h"
 #include <stdio.h>
 /**
- *print_diagsums - function that prints the sum of the two diagonals of a square matrix of integers.
- *@a:pointer
+ *print_diagsums - function that prints the sum of the two diagonals of a square matrix of integers
+ *@a:pointer of tthe string
  *@size:width of matrix columon
  *Return:void
  */
