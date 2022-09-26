@@ -16,7 +16,7 @@ if (s[i] == accept[j])
 break;
 }
 if (accept[j])
-return (s + 1)
+return (s + i);
 }
 return (0);
 }
