@@ -2,10 +2,10 @@
 #include <stdlib.h>
 #include <stdio.h>
 /**
- *main - print the name of the program
- *@argc: count arguments
- *@argv: arguments
- *Return:0 if true and 1 if false
+ *main - print multiplication of the number
+ *@argc:count arguments
+ *@argv:arguments vector
+ *Return: 0 if true and 1 if false
  */
 int main(int argc, char *argv[])
 {
