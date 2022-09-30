@@ -1,6 +1,6 @@
-#include <stdio.h>
-#include <stdlib.h>
 #include "main.h"
+#include <stdlib.h>
+#include <stdio.h>
 /**
  *main - print the name of the program
  *@argc: count arguments
@@ -10,7 +10,7 @@
 int main(int argc, char *argv[])
 {
 int a, b;
-if (argc == 1)
+if (argc == 3)
 {
 a = atoi(argv[1]);
 b = atoi(argv[2]);
