@@ -28,7 +28,7 @@ return (NULL);
 i = 0;
 while (i < len1)
 {
-nstr[i] = si[i];
+nstr[i] = s1[i];
 i++;
 }
 j = 0;
