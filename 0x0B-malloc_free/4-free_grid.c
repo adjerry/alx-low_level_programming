@@ -1,8 +1,7 @@
-
 #include "main.h"
 #include <stdlib.h>
 /**
- *free_grid - function that frees a 2 dimensional grid previously created by your
+ *free_grid - function that frees a 2 dimentional
  *@grid: pointer to pointer
  *@height:height of grid
  *Return:void
