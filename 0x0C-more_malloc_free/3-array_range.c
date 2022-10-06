@@ -19,7 +19,7 @@ if (p == NULL)
 return (NULL);
 for (i = 0; i < range; i++)
 {
-*(p + 1) = min + 1;
+*(p + i) = min + i;
 }
 return (p);
 }
