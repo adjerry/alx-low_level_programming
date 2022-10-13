@@ -15,7 +15,7 @@ va_list strings;
 if (separator == NULL)
 {
 separator = "";
-va_start(strings, n)
+va_start(strings, n);
 for (i = 0; i < n; i++)
 {
 s = va_arg(strings, char *);
@@ -33,4 +33,3 @@ printf("%s", separator);
 printf("\n");
 va_end(strings);
 }
-
