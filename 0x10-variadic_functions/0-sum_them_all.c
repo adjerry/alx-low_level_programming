@@ -17,4 +17,4 @@ sum += va_arg(arglist, int);
 }
 va_end(arglist);
 return (sum);
-
+}
