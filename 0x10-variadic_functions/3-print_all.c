@@ -14,7 +14,7 @@ char *s, *separator;
 va_start(args, format);
 separator = "";
 i = 0;
-while (format && formate[i])
+while (format && format[i])
 {
 switch (format[i])
 {
@@ -37,7 +37,7 @@ default;
 i++;
 continue;
 }
-separator = ",";
+separator = ", ";
 i++;
 }
 printf("\n");
