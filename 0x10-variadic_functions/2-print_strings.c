@@ -22,8 +22,6 @@ if (s == NULL)
 s = "(nil)";
 printf("%s", s);
 if (i < n - 1)
-printf("%s", s);
-if (i < n - 1)
 {
 printf("%s", separator);
 }
