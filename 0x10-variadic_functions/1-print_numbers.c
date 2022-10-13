@@ -2,7 +2,7 @@
 #include <stdarg.h>
 #include <stdlib.h>
 /**
- *print_numbers - prints number follwed by a new line.
+ *print_numbers - prints number follwed by a new line
  *@separator:string to be printed between number
  *@n:number of integers passed to the function
  *Return:void
@@ -15,7 +15,7 @@ va_start(numbers, n);
 for (i = 0; i < n; i++)
 {
 printf("%d", va_arg(numbers, int));
-if(i < n - 1 && separator != NULL)
+if (i < n - 1 && separator != NULL)
 printf("%s", separator);
 }
 printf("\n");
