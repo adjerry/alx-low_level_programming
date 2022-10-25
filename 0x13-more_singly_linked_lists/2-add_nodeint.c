@@ -1,8 +1,8 @@
 #include "lists.h"
 /**
  * add_nodeint - function that adds a new node at the beginni
- * @head:pointer
- * @n:integer
+ * @head: pointer
+ * @n: integer
  * Return:address of the newly added node
  */
 listint_t *add_nodeint(listint_t **head, const int n)
