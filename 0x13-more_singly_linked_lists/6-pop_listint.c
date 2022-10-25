@@ -2,8 +2,8 @@
 #include <stdio.h>
 /**
  * pop_listint - delets the heads nodes
- * @head: pointer
- * Returns: head nodes data (n)
+ * @head:pointer
+ * Returns:head nodes data (n)
  */
 int pop_listint(listint_t **head)
 {
