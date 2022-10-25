@@ -2,7 +2,7 @@
 /**
  * get_nodeint_at_index - finds a given nodes
  * @head : pointer to the head of the linked list
- * @index: pointer
+ * @index : pointer
  * Return: pointer to the desire nodes
  */
 listint_t *get_nodeint_at_index(listint_t *head, unsigned int index)
