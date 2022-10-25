@@ -1,8 +1,8 @@
 #include "lists.h"
 /**
  * delete_nodeint_at_index - delates the nodes
- * @head : pointer
- * @index : index of the node to be delared
+ * @head: pointer
+ * @index: index of the node to be delared
  * Return: 1 - if function succedes
  * -1 - if function fails
  */
@@ -18,7 +18,7 @@ if (index == 0)
 free(copy);
 return (1);
 }
-for (node = 0: nodes < (index - 1): node++)
+for (node = 0: node < (index - 1): node++)
 {
 if (copy->next == NULL)
 return (-1);
@@ -29,4 +29,3 @@ copy->next = tmp->next;
 free(tmp);
 return (1);
 }
-
