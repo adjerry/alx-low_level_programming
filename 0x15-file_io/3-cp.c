@@ -4,6 +4,7 @@
  * error_file - cheack if files be opened
  * @file_from: file_from
  * @file_to: file_to
+ * @argv: argument vector
  * Return: no return
  */
 void error_file(int file_from, int file_to, char *argv[])
